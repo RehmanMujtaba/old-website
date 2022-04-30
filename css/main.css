@@ -2,22 +2,28 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+ul {
+  margin: 60px auto;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+li {
+  float: left;
 }
-a {
-    text-decoration: none;
-    color: #999;
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-a:hover {
-    text-decoration: underline;
+
+li a:hover {
+  background-color: #111;
 }
 h1 {
     font-size: 3em;
