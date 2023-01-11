@@ -1,7 +1,7 @@
 # RehmanMujtaba.github.io
 
 Update:
-Added a link to a javascript calcolator I put together using a tutorial.
+Added a link to a javascript calcolator I put together using a tutorial. See calculator repo for more details.
 
 This is a simple person website I put together hosted on Github pages.
 
