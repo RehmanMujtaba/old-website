@@ -31,10 +31,6 @@ li {
    text-decoration: none;
 }
 
-li:hover:not(.active) {
-   background-color: #111;
-}
-
 li:hover {
   background-color: #111;
 }
@@ -46,7 +42,11 @@ a {
    text-decoration: none;
 }
 
-
+.link {
+  color: grey;
+  text-align: left;
+  display: block
+}
 
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
