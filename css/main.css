@@ -84,3 +84,10 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.link {
+  color: grey;
+  text-align: left;
+  display: block
+}
+
