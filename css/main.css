@@ -7,15 +7,6 @@ nav ul {
     font-family:'Arial';
     display: block;
     border: 1px solid #e7e7e7;
-    overflow: hiddenbody {
-    margin: 60px auto;
-    width: 70%;
-}
-
-nav ul {
-    font-family:'Arial';
-    display: block;
-    border: 1px solid #e7e7e7;
     overflow: hidden;
     background-color: #333;
     padding: 0;
@@ -102,86 +93,3 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-    background-color: #333;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    list-style: none;
-    font-weight: bold;
-}
-
-nav ul li{
-    display: inline;
-    color: #666;
-    float: left;
-    margin-right: 20px;
-}
-
-a {
-   display: block;
-   color: white;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-}
-
-li a:hover:not(.active) {
-   background-color: #111;
-}
-
-a:hover {
-  background-color: #111;
-}
-
-footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    list-style: none;
-    display: block;
-    font-weight: bold;
-}
-
-footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-b {
-    text-decoration: none;
-    color: #999;
-}
-
-b:hover {
-    text-decoration: underline;
-}
-
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
-
-.link {
-  color: grey;
-  text-align: left;
-  display: block
-}
-
