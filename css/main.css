@@ -35,14 +35,14 @@ li:hover {
   background-color: #111;
 }
 
-a {
+header a {
   display: block;
    color: white;
    text-align: center;
    text-decoration: none;
 }
 
-.link {
+cv .link {
   color: black;
   text-align: left;
   display: block
