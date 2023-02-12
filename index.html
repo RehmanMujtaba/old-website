@@ -1,12 +1,771 @@
----
-layout: default
-title: Mujtaba Personal Website
----
-    		<div class="blurb">
-        		<h1>Hello there, I'm Mujtaba Rehman!</h1>
-				<p>I'm a second year computer science student at the University of Waterloo. This website is a project of mine. 
-				 As I learn more about web development, I will be adding more features and pages to this site. <p>
-				<p>Now, I would say that this website serves to facilitate people who want to check out some of the work I've done in the past.
-			           I've linked my <a class="link" color_name="blue" style="white-space: nowrap" href="https://github.com/RehmanMujtaba">Github</a> here too.
+<!DOCTYPE html>
+<html>
 
-    		</div><!-- /.blurb -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>MU Material : Home</title>
+
+  <!-- CSS  -->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!-- Font Awesome -->
+  <link href="css/font-awesome.css" rel="stylesheet">
+  <!-- Skill Progress Bar -->
+  <link href="css/pro-bars.css" rel="stylesheet" type="text/css" media="all" />
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <!-- Default Theme CSS File-->
+  <link id="switcher" href="css/themes/default-theme.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!-- Main css File -->
+  <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+  <!-- Font -->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- BEGAIN PRELOADER -->
+  <div id="preloader">
+    <div class="progress">
+      <div class="indeterminate"></div>
+    </div>
+  </div>
+  <!-- END PRELOADER -->
+  <header id="header" role="banner">
+    <div class="navbar-fixed">
+      <nav>
+        <div class="container">
+          <div class="nav-wrapper">
+
+            <!-- LOGO -->
+
+            <!-- TEXT BASED LOGO -->
+            <a href="index.html" class="brand-logo">Mujtaba Rehman</a>
+
+            <!-- Image Based Logo -->
+            <!-- <a href="index.html" class="brand-logo"><img src="img/logo.jpeg" alt="logo img"></a>  -->
+            <ul class="right hide-on-med-and-down custom-nav menu-scroll">
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#testimonial">Testimonial</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#footer">Contact</a></li>
+            </ul>
+            <!-- For Mobile View -->
+            <ul id="slide-out" class="side-nav menu-scroll">
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#testimonial">Testimonial</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#footer">Contact</a></li>
+            </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="main-wrapper">
+    <main role="main">
+      <!-- START HOME SECTION -->
+      <section id="home">
+        <div class="overlay-section">
+          <div class="container">
+            <div class="row">
+              <div class="col s12">
+                <div class="home-inner">
+                  <h1 class="home-title">HI! I'm <span>Mujtaba Rehman</span></h1>
+                  <p>As a computer science student, I am constantly striving to improve my skills and expand my
+                    knowledge in the field. I am eager to find a role that will provide opportunities for growth and
+                    allow me to make meaningful contributions to a team! </p>
+                  <a class="hire-me-btn btn waves-effect waves-light btn-large" href="#footer">Hire Me <i
+                      class="mdi-content-send left"></i>
+                  </a>
+                  <!-- Call to About Button -->
+                  <button class="btn btn-floating waves-effect waves-light btn-large white call-to-about"><i
+                      class="material-icons">play_for_work</i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- START ABOUT SECTION -->
+      <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <div class="about-inner">
+                <div class="row">
+                  <div class="col s12 m4 l3">
+                    <div class="about-inner-left">
+                      <img class="profile-img" src="img/profile-img1.jpg" alt="Profile Image">
+                    </div>
+                  </div>
+                  <div class="col s12 m8 l9">
+                    <div class="about-inner-right">
+                      <h3>About Me</h3>
+                      <p>I am a second year student in the University of Waterloo. This website began as a way for me to
+                        learn web development. Now its more of a place for me to document proect and school. Plus, its
+                        cool having a little corner of the internet that belongs to you.</p>
+                      <div class="personal-information col s12 m12 l6">
+                        <h3>Personal Information</h3>
+                        <ul>
+                          <li><span>Name : </span>Mujtaba Rehman </li>
+                          <li><span>Phone : </span>+1 (226) 9780346</li>
+                          <li><span>Email : </span>RehmanMujtaba@outlook.com</li>
+                          <li><span>Address : </span>Waterloo,CA</li>
+                        </ul>
+                      </div>
+                      <div class="resume-download col s12 m12 l6">
+                        <a href="#" class="waves-effect waves-light btn-large resume-btn"><i
+                            class="mdi-content-archive left"></i> Download Resume</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Start Resume -->
+      <section id="resume">
+        <!-- Start Skill -->
+        <section id="skill">
+          <div class="container">
+            <div class="skill-inner">
+              <h2 class="title">Skills</h2>
+              <p>As someone early on in their career, I look forward to picking up on new languages and technologies on
+                the job. Right now, I have more expertise in C, C++, Python and Javascript. I especially look forward to
+                learn Rust and about full stack web apps.</p>
+
+              <!-- Start skills progress bar -->
+
+              <div class="skill-progress-bar">
+                <span>C++</span>
+                <div class="pro-bar-container color-wisteria">
+                  <div class="pro-bar bar-100 color-amethyst" data-pro-bar-percent="95"></div>
+                </div>
+                <span>Python</span>
+                <div class="pro-bar-container color-wisteria">
+                  <div class="pro-bar bar-90 color-amethyst" data-pro-bar-percent="93" data-pro-bar-delay="100"></div>
+                </div>
+                <span>C</span>
+                <div class="pro-bar-container color-wisteria">
+                  <div class="pro-bar bar-80 color-amethyst" data-pro-bar-percent="94" data-pro-bar-delay="200"></div>
+                </div>
+                <span>Javascript</span>
+                <div class="pro-bar-container color-wisteria">
+                  <div class="pro-bar bar-70 color-amethyst" data-pro-bar-percent="96" data-pro-bar-delay="300"></div>
+                </div>
+                <span>React</span>
+                <div class="pro-bar-container color-wisteria">
+                  <div class="pro-bar bar-60 color-amethyst" data-pro-bar-percent="90" data-pro-bar-delay="400"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Start Experience -->
+        <section id="experience">
+          <div class="container">
+            <div class="experience-inner">
+              <h2 class="title">Experience and Projects</h2>
+              <p></p>
+              <div id="owl-carousel" class="experience-slider row">
+                <!-- Start Single Experience -->
+                <div class="col s12">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <h2 class="experience-title">June 2022 - August 2022</h2>
+                      <img class="activator" src="img/office.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator reveal-title">University Intern<i
+                          class="material-icons right">more_vert</i></span>
+                      <p><a href="#"></a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title reveal-title">University Intern<i
+                          class="material-icons right">close</i></span>
+                      <a href="#" class="card-subtitle">Engineering Science Quest</a>
+                      <p>Worked at a summer camp at Waterloo where I delivered and designed over 40 coding lessons to
+                        high
+                        school-aged students in multiple programming languages including
+                        Python, Arduino C, JavaScript, and HTML/CSS. I learnt how to explain complicated and often
+                        confusing coding concepts
+                        at a simpler level. I also was lucky enough to get a chance to do a presentation in front of the
+                        Ontario Minister of Education.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Start Single Experience -->
+                <div class="col s12">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <h2 class="experience-title"></h2>
+                      <img class="activator" src="img/office.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator reveal-title">Autonomous Drone Flight</span><i
+                        class="material-icons right">more_vert</i></span>
+                      <p><a href="#">Python, Sockets, Electronics</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title reveal-title">Autonomous Drone Flight</span><i
+                        class="material-icons right">close</i></span>
+                      <a href="#" class="card-subtitle">Python</a>
+                      <p>I soldered together a quadcopter using parts I ordered online. Once I was satisfied with a
+                        simple remote controlled drone, I got hold of a Raspberry Pi which was able to connect to my
+                        flight controller chip. From there, I was able to
+                        establish a Wifi connection between my laptop and the drone (so much for all the money spent on
+                        a dedicated transmitter/receiver). After that, using the DroneKit Python API, I was able to
+                        code the drone for semi-autonomous flight and ariel tricks! Of course, first it was better to
+                        keep
+                        the drone on a leash (yes, a physical leash), because a small mistake could always lead to the
+                        drone flying away into the sky!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Start Single Experience -->
+
+                <div class="col s12">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <h2 class="experience-title"></h2>
+                      <img class="activator" src="img/office.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator reveal-title">Chess Engine<i
+                          class="material-icons right">more_vert</i></span>
+                      <p><a href="#">C++, Object Oriented Programming</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title reveal-title">Chess Engine<i class="material-icons right">close</i></span>
+                      <a href="#" class="card-subtitle">Object Oriented Programming</a>
+                      <p>Me and two of my classmates coded a Chess Engine using C++. My role was to work on the game
+                        logic. I began by making a beta version of the game from scratch that had a board, moving pawns
+                        and not much else. From there I worked on the rest of the game, while my teammates worked on the
+                        AI and graphics. Our final product was over 3000 lines! Over the course of the project, I
+                        learned to plan and collaborate with over developers. In addition, it was cool to implement SWE
+                        principles that I had learnt in class. </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Start Single Experience -->
+                <div class="col s12">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <h2 class="experience-title"></h2>
+                      <img class="activator" src="img/office.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator reveal-title">Command Line Text Editor<i
+                          class="material-icons right">more_vert</i></span>
+                      <p><a href="#">C, Bash, Linux</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title reveal-title">Command Line Text Editor<i
+                          class="material-icons right">close</i></span>
+                      <a href="#" class="card-subtitle">C</a>
+                      <p>I am currently working on a command line text editor for Linux that I am making in C. Before
+                        this
+                        project, the terminal was like a black-box to me. You type in some text and it does what you ask
+                        it
+                        to (more often dose not since you spelt something wrong). But now, I feel like I really
+                        appreciate whats going on under the hood. The terminal listens to each and every key press
+                        carefully, especially watching out for ctrl+anything and complicated escape sequences (more of a
+                        C thing, but let me have this). Another
+                        thing I enjoy about this project is how extendable it is. I can add as many features as I want:
+                        syntax highlighting, searching and fonts to name a few.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Start Single Experience -->
+                <!-- Start Single Experience -->
+                <!-- Start Single Experience -->
+                <!-- Start Single Experience -->
+              </div>
+              <!-- owl navigation -->
+              <div class="customNavigation">
+                <a class="btn prev btn-floating waves-effect waves-light btn-large white"><i
+                    class="mdi-navigation-chevron-left brand-text"></i></a>
+                <a class="btn next btn-floating waves-effect waves-light btn-large white"><i
+                    class="mdi-navigation-chevron-right brand-text"></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Start Education -->
+        <section id="edcuation">
+          <div class="container">
+            <div class="education-inner">
+              <h2 class="title">Education</h2>
+              <p>I am currently working towards a bachelors degree in computer science at the University of Waterloo in
+                Waterloo Canada. I can provide my transcript, if you are interested. Its also hosted in the same Github
+                repo as this website, if you fancy a search. I did my A level's and IGCSE's (highschool if you speak
+                North American) in Pakistan, with a highlight being scroing the highest marks in my country in an
+                advance math course. But don't get me wrong, I am glad to be in a place where exams do not make up 100%
+                of your grade!</p>
+              <div id="owl-carousel1" class="experience-slider row">
+                <!-- Start Single Experience -->
+                <div class="col s12">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <h2 class="experience-title">2021 - 2026</h2>
+                      <img class="activator" src="img/graduate-cap.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator reveal-title">Bachelor's of Computer Science<i
+                          class="material-icons right">more_vert</i></span>
+                      <p><a href="#">University of Waterloo</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title reveal-title">Bachelor's of Computer Science (co-op)<i
+                          class="material-icons right">close</i></span>
+                      <a href="#" class="card-subtitle">University of Waterloo</a>
+                      <p>Waterloo's co-op (cooperative education) program offers you a chance to graduate with a 4 year
+                        degree and 2 years of work experience in 5 year. Its a pretty neat idea before you find out it
+                        works by not giving you any summer breaks! But, seriously, I've made amazing memories over here
+                        and met some people who I know are going to be my friends for life.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Start Single Experience -->
+                <!-- Start Single Experience -->
+                <div class="col s12">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <h2 class="experience-title">2017-2021</h2>
+                      <img class="activator" src="img/graduate-cap.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator reveal-title">IGCSE/A Level<i
+                          class="material-icons right">more_vert</i></span>
+                      <p><a href="#">Froebel's International School</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title reveal-title">A Level<i class="material-icons right">close</i></span>
+                      <a href="#" class="card-subtitle">Froebel's International School</a>
+                      <p>Heres where I did my highschool. Not too much to note. Yes, its normal for it to take 5 years
+                        under this system.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Start Single Experience -->
+
+                <!-- Start Single Experience -->
+                <!-- owl navigation -->
+                <div class="customNavigation">
+                  <a class="btn prev1 btn-floating waves-effect waves-light btn-large white"><i
+                      class="mdi-navigation-chevron-left brand-text"></i></a>
+                  <a class="btn next1 btn-floating waves-effect waves-light btn-large white"><i
+                      class="mdi-navigation-chevron-right brand-text"></i></a>
+                </div>
+              </div>
+            </div>
+        </section>
+      </section>
+      <!-- Start Portfolio -->
+      <section id="portfolio">
+        <div class="portfolio-top">
+          <div class="container">
+            <div class="portfolio-top-inner">
+              <h2 class="title">Portfolio</h2>
+              <div class="controls">
+                <button class="filter waves-effect waves-light btn" data-filter="all">All</button>
+                <button class="filter waves-effect waves-light btn" data-filter=".html">HTMl</button>
+                <button class="filter waves-effect waves-light btn" data-filter=".design">Design</button>
+                <button class="filter waves-effect waves-light btn" data-filter=".fashion">Fashion</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-bottom">
+          <div class="container">
+            <div class="portfolio-bottom-inner">
+              <div id="portfolio-list">
+                <div class="mix html" data-value="2">
+                  <a href="#">
+                    <img src="img/portfolio/html/html-2.jpg" alt="img">
+                    <i class="material-icons view-icon">pageview</i>
+                  </a>
+                </div>
+                <div class="mix fashion" data-value="4">
+                  <a href="#">
+                    <img src="img/portfolio/fashion/fashion-1.jpg" alt="img">
+                    <i class="material-icons view-icon">pageview</i>
+                  </a>
+                </div>
+                <div class="mix design" data-value="1">
+                  <a href="#">
+                    <img src="img/portfolio/design/design-1.jpg" alt="img">
+                    <i class="material-icons view-icon">pageview</i>
+                  </a>
+                </div>
+                <div class="mix html" data-value="5">
+                  <a href="#">
+                    <img src="img/portfolio/html/html-1.jpg" alt="img">
+                    <i class="material-icons view-icon">pageview</i>
+                  </a>
+                </div>
+                <div class="mix fashion" data-value="3">
+                  <a href="#">
+                    <img src="img/portfolio/fashion/fashion-2.jpg" alt="img">
+                    <i class="material-icons view-icon">pageview</i>
+                  </a>
+                </div>
+                <div class="mix design" data-value="9">
+                  <a href="#">
+                    <img src="img/portfolio/design/design-2.jpg" alt="img">
+                    <i class="material-icons view-icon">pageview</i>
+                  </a>
+                </div>
+                <div class="mix html" data-value="12">
+                  <a href="#">
+                    <img src="img/portfolio/html/html-3.jpg" alt="img">
+                    <i class="material-icons view-icon">pageview</i>
+                  </a>
+                </div>
+                <div class="mix fashion" data-value="7">
+                  <a href="#">
+                    <img src="img/portfolio/fashion/fashion-3.jpg" alt="img">
+                    <i class="material-icons view-icon">pageview</i>
+                  </a>
+                </div>
+                <div class="mix design" data-value="6">
+                  <a href="#">
+                    <img src="img/portfolio/design/design-3.jpg" alt="img">
+                    <i class="material-icons view-icon">pageview</i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Start Facts -->
+      <section id="facts">
+        <div class="facts-overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col s12">
+                <div class="facts-inner">
+                  <div class="row">
+                    <div class="col s12 m4 l4">
+                      <div class="single-facts waves-effect waves-block waves-light">
+                        <i class="material-icons">work</i>
+                        <span class="counter">7</span>
+                        <span class="counter-text">Project Completed</span>
+                      </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                      <div class="single-facts waves-effect waves-block waves-light">
+                        <i class="material-icons">supervisor_account</i>
+                        <span class="counter">68</span>
+                        <span class="counter-text">Happy Clients</span>
+                      </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                      <div class="single-facts waves-effect waves-block waves-light">
+                        <i class="material-icons">redeem</i>
+                        <span class="counter">3</span>
+                        <span class="counter-text">Award Won</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonial -->
+      <!--   <section id="testimonial">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <div class="testimonial-inner">
+                <h2 class="title">Testimonial</h2>
+                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+                  opposed to using 'Content here, content here.It is a long established fact that a reader will be
+                  distracted by the readable content of a page when looking at its layout. The point of using Lorem
+                  Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                  content here', making it look like readable English.</p>
+                tart Testimonial Slider -->
+      <!-- <div class="testimonial-slider-area">
+                  <div id="owl-carousel2" class="testimonial-slider row">
+                    <div class="col s12">
+                      <div class="single-testimonial">
+                        <div class="testimonial-img">
+                          <img src="img/profile-img.jpg" alt="img">
+                        </div>
+                        <div class="testimonial-content">
+                          <h3>Mike Jones</h3>
+                          <span>CEO, Google Inc.</span>
+                          <p>"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                            letters, as opposed to using 'Content here, content here.It is a long established fact that
+                            a reader will be distracted by the readable content of a page when looking at its layout"
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col s12">
+                      <div class="single-testimonial">
+                        <div class="testimonial-img">
+                          <img src="img/profile-img1.jpg" alt="img">
+                        </div>
+                        <div class="testimonial-content">
+                          <h3>Mike Jones</h3>
+                          <span>CEO, Google Inc.</span>
+                          <p>"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                            letters, as opposed to using 'Content here, content here.It is a long established fact that
+                            a reader will be distracted by the readable content of a page when looking at its layout"
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col s12">
+                      <div class="single-testimonial">
+                        <div class="testimonial-img">
+                          <img src="img/profile-img.jpg" alt="img">
+                        </div>
+                        <div class="testimonial-content">
+                          <h3>Mike Jones</h3>
+                          <span>CEO, Google Inc.</span>
+                          <p>"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                            letters, as opposed to using 'Content here, content here.It is a long established fact that
+                            a reader will be distracted by the readable content of a page when looking at its layout"
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col s12">
+                      <div class="single-testimonial">
+                        <div class="testimonial-img">
+                          <img src="img/profile-img1.jpg" alt="img">
+                        </div>
+                        <div class="testimonial-content">
+                          <h3>Mike Jones</h3>
+                          <span>CEO, Google Inc.</span>
+                          <p>"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                            letters, as opposed to using 'Content here, content here.It is a long established fact that
+                            a reader will be distracted by the readable content of a page when looking at its layout"
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="customNavigation">
+                    <a class="btn prev2 btn-floating waves-effect waves-light btn-large white"><i
+                        class="mdi-navigation-chevron-left brand-text"></i></a>
+                    <a class="btn next2 btn-floating waves-effect waves-light btn-large white"><i
+                        class="mdi-navigation-chevron-right brand-text"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- Start Blog -->
+      <section id="blog">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <div class="blog-inner">
+                <h2 class="title">Blog</h2>
+                <p>The point of this Blog is to document the process behind things that I have build or am building. I'm
+                  also going to use it to document my experience in Waterloo, so hopefully others can learn through the
+                  experience I've gained!</p>
+                <!-- Start Blog area -->
+                <div class="blog-area">
+                  <div class="row">
+                    <!-- Start single blog post -->
+                    <div class="col s12 m4 l4">
+                      <div class="blog-post">
+                        <div class="card">
+                          <div class="card-image">
+                            <img src="img/blog1.jpg">
+                          </div>
+                          <div class="card-content blog-post-content">
+                            <h2><a href="blog-single.html">Awesome Post Title</a></h2>
+                            <div class="meta-media">
+                              <div class="single-meta">
+                                Post By <a href="#">Admin</a>
+                              </div>
+                              <div class="single-meta">
+                                Category : <a href="#">Web/Design</a>
+                              </div>
+                            </div>
+                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                              letters, as opposed to using 'Content here, content here.</p>
+                          </div>
+                          <div class="card-action">
+                            <a class="post-comment" href="#"><i class="material-icons">comment</i><span>15</span></a>
+                            <a class="readmore-btn" href="blog-single.html">Read More</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Start single blog post -->
+                    <div class="col s12 m4 l4">
+                      <div class="blog-post">
+                        <div class="card">
+                          <div class="card-image">
+                            <img src="img/blog2.jpg">
+                          </div>
+                          <div class="card-content blog-post-content">
+                            <h2><a href="blog-single.html">Awesome Post Title</a></h2>
+                            <div class="meta-media">
+                              <div class="single-meta">
+                                Post By <a href="#">Admin</a>
+                              </div>
+                              <div class="single-meta">
+                                Category : <a href="#">Web/Design</a>
+                              </div>
+                            </div>
+                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                              letters, as opposed to using 'Content here, content here.</p>
+                          </div>
+                          <div class="card-action">
+                            <a class="post-comment" href="#"><i class="material-icons">comment</i><span>10</span></a>
+                            <a class="readmore-btn" href="blog-single.html">Read More</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Start single blog post -->
+                    <div class="col s12 m4 l4">
+                      <div class="blog-post">
+                        <div class="card">
+                          <div class="card-image">
+                            <img src="img/blog3.jpg">
+                          </div>
+                          <div class="card-content blog-post-content">
+                            <h2><a href="blog-single.html">Awesome Post Title</a></h2>
+                            <div class="meta-media">
+                              <div class="single-meta">
+                                Post By <a href="#">Admin</a>
+                              </div>
+                              <div class="single-meta">
+                                Category : <a href="#">Web/Design</a>
+                              </div>
+                            </div>
+                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                              letters, as opposed to using 'Content here, content here.</p>
+                          </div>
+                          <div class="card-action">
+                            <a class="post-comment" href="#"><i class="material-icons">comment</i><span>15</span></a>
+                            <a class="readmore-btn" href="blog-single.html">Read More</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- All Post Button -->
+                  <a class="waves-effect waves-light btn-large allpost-btn" href="blog-archive.html">All Post</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Start Footer -->
+      <footer id="footer" role="contentinfo">
+        <!-- Start Footer Top -->
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col s12">
+                <div class="footer-top-inner">
+                  <h2 class="title">Contact</h2>
+                  <p>Please feel free to get in touch with me for any professional opportunities. In addition, I am more
+                    than
+                    happy to collaborate on any project ideas. Also, don't hesitate to reach out for any sort of help
+                    or guidance!</p>
+                  <div class="contact">
+                    <div class="row">
+                      <div class="col s12 m6 l6">
+                        <div class="contact-form">
+                          <form>
+                            <div class="input-field">
+                              <input type="text" class="input-box" name="contactName" id="contact-name">
+                              <label class="input-label" for="contact-name">Name</label>
+                            </div>
+                            <div class="input-field">
+                              <input type="email" class="input-box" name="contactEmail" id="email">
+                              <label class="input-label" for="email">Email</label>
+                            </div>
+                            <div class="input-field">
+                              <input type="text" class="input-box" name="contactSubject" id="subject">
+                              <label class="input-label" for="subject">Subject</label>
+                            </div>
+                            <div class="input-field textarea-input">
+                              <textarea class="materialize-textarea" name="contactMessage" id="textarea1"></textarea>
+                              <label class="input-label" for="textarea1">Message</label>
+                            </div>
+                            <button class="left waves-effect btn-flat brand-text submit-btn" type="submit">send
+                              message</button>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="col s12 m6 l6">
+                        <div class="contact-map">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1262.1236893007306!2d-80.54456490475133!3d43.4720776623392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf401d9ad23ff%3A0xe8f8cd84b23aac49!2sMathematics%20%26%20Computer!5e0!3m2!1sen!2sca!4v1676180380285!5m2!1sen!2sca"
+                            width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Start Footer Bottom -->
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col s12">
+                <div class="footer-inner">
+                  <!-- Bottom to Up Btn -->
+                  <button class="btn-floating btn-large up-btn"><i class="mdi-navigation-expand-less"></i></button>
+                  <p class="design-info">Designed By <a href="http://www.markups.io/">MarkUps.io</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+  <!-- jQuery Library -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Materialize js -->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <!-- Skill Progress Bar -->
+  <script src="js/appear.min.js" type="text/javascript"></script>
+  <script src="js/pro-bars.min.js" type="text/javascript"></script>
+  <!-- Owl slider -->
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- Mixit slider  -->
+  <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+  <!-- counter -->
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+
+  <!-- Custom Js -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
