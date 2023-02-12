@@ -1,5 +1,10 @@
 # RehmanMujtaba.github.io
 
+##Update:
+This is the latest iteration with the HTML redone too. I do not think I am going to touch this for a while, aside from blog post.
+![image](https://user-images.githubusercontent.com/97486476/218301100-0791af26-28bc-4e68-bb59-aba4eefe3230.png)
+
+
 ## Update:
 I redid the CSS based off of a free template I found online over [here](http://www.markups.io/). It seems like front-end vanilla CSS is not my calling.
 I'm going to do the same thing again soon with the HTML.
